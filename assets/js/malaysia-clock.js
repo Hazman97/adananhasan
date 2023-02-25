@@ -3,7 +3,7 @@ function startTime() {
   var h = today.getUTCHours() + 8;
   var m = today.getUTCMinutes();
   var s = today.getUTCSeconds();
-  h = checkTime(h);
+  
   m = checkTime(m);
   s = checkTime(s);
   document.getElementById('malaysia-clock').innerHTML =
